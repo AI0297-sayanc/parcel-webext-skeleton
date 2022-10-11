@@ -1,0 +1,18 @@
+{
+  "name": "parcel-webext-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel watch ./src/manifest.json --host localhost --config @parcel/config-webextension",
+    "build": "rimraf ./dist && parcel build ./src/manifest.json --config @parcel/config-webextension",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.5.0",
+    "parcel": "^2.5.0",
+    "rimraf": "^3.0.2"
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Extension Options</title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <label>
+    <input type="text" id="DELAY_BETWEEN_SCRAPES">
+    Delay Between Consecutive Scrapes (seconds)
+  </label><br/><br/>
+  <label>
+    <input type="text" id="COOL_DOWN_MINUTES">
+    Cool Down Time (minutes)
+  </label><br/><br/>
+  <label>
+    <input type="text" id="START_COOL_DOWN_AFTER_MINUTES">
+    Time to run each Scraping loop (minutes)
+  </label><br/><br/>
+  <label>
+    <input type="text" id="SEND_HTML_EP">
+    Endpoint URL to send scraped HTML
+  </label><br/><br/>
+  <label>
+    <input type="checkbox" id="CLOSE_TAB_AFTER_SCRAPING">
+    Auto close site after scraping completes
+  </label><br/><br/>
+
+  <div id="status"></div>
+  <button id="save">Save</button>
+
+  <script src="options.js"></script>
+</body>
+
+</html>
